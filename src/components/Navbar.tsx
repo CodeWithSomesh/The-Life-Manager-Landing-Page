@@ -23,7 +23,7 @@ const Navbar = () => {
             <a href="#" className='text-opacity-60 hover:text-opacity-100 text-white'>Updates</a>
             <a href="#" className='text-opacity-60 hover:text-opacity-100 text-white'>Help</a>
             <a href="#" className='text-opacity-60 hover:text-opacity-100 text-white'>Customers</a>
-            <button className='bg-white py-2 px-4 rounded-lg'>Get for free</button>
+            <button className='bg-white py-2 px-4 rounded-lg font-semibold'>Get for free</button>
           </nav>
         </div>
       </div>
