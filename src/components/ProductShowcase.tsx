@@ -16,7 +16,7 @@ export const ProductShowcase = () => {
         </div>
 
         <Image src={appScreen} alt="The product screenshot"
-        className="mt-14"
+        className="mt-14 mx-auto"
         />
       </div>
     </div>

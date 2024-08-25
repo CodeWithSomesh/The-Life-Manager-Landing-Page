@@ -1,7 +1,10 @@
+"use client"
+
 import Image from 'next/image'
 import ArrowIcon from '../assets/icons/arrow-w.svg'
 import cursorImage from '../assets/images/cursor.png'
 import messageImage from '../assets/images/message.png'
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
@@ -26,9 +29,17 @@ const Hero = () => {
               <br /> At A Time
             </h1>
 
-            <Image src={cursorImage} alt="" height="200" width="200" className='absolute right-[500px] top-[108px] hidden sm:inline' />
+            <motion.div drag //dragSnapToOrigin 
+            className='absolute right-[500px] top-[108px] hidden sm:inline'>
+              <Image src={cursorImage} alt="" height="200" width="200" 
+              className='max-w-none' draggable="false"  />
+            </motion.div>
 
-            <Image src={messageImage} alt="" height="200" width="200" className='absolute left-[520px] top-[56px] hidden sm:inline' />
+            <motion.div drag //dragSnapToOrigin
+            className='absolute left-[520px] top-[56px] hidden sm:inline' >
+              <Image src={messageImage} alt="" height="200" width="200" 
+              className='max-w-none' draggable="false" />
+            </motion.div>
           </div>
         </div>
 
