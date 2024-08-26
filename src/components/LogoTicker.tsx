@@ -37,7 +37,7 @@ export const LogoTicker = () => {
           initial={{translateX: 0}}
           animate={{translateX: "-50%"}}
           transition={{
-            duration: 10,
+            duration: 16,
             ease: "linear",
             repeat: Infinity,
           }}>
