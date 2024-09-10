@@ -30,13 +30,13 @@ const Hero = () => {
             </h1>
 
             <motion.div drag //dragSnapToOrigin 
-            className='absolute right-[500px] top-[108px] hidden sm:inline'>
+            className='absolute right-[530px] top-[108px] hidden sm:inline'>
               <Image src={cursorImage} alt="" height="200" width="200" 
               className='max-w-none' draggable="false"  />
             </motion.div>
 
             <motion.div drag //dragSnapToOrigin
-            className='absolute left-[520px] top-[56px] hidden sm:inline' >
+            className='absolute left-[550px] top-[56px] hidden sm:inline' >
               <Image src={messageImage} alt="" height="200" width="200" 
               className='max-w-none' draggable="false" />
             </motion.div>

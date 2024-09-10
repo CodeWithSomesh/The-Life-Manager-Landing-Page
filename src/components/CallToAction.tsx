@@ -10,10 +10,10 @@ export const CallToAction = () => {
 
 
   return (
-    <div className="bg-black text-white py-[72px] sm:py-32 text-center">
+    <div className="bg-black text-white py-[72px] sm:py-32 text-center overflow-hidden ">
       <div className="container max-w-xl relative">
 
-        <motion.div initial={{translateY: 0}}
+        <motion.div  initial={{translateY: 0}}
           animate={{translateY: [0, -60, 0]}}
           transition={{
             duration: 5,
@@ -24,7 +24,7 @@ export const CallToAction = () => {
           className="absolute top-6 left-[calc(100%+36px)] " />
         </motion.div>
 
-        <motion.div initial={{translateY: 0}}
+        <motion.div drag initial={{translateY: 0}}
           animate={{translateY: [0, 60, 0]}}
           transition={{
             duration: 5,
